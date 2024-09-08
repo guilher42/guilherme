@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guizim</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">Sobre Mim</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h1>Olá, eu sou Guilherme</h1>
+        <p>Estudante de Programação Web focado no Front-end</p>
+        <button onclick="scrollToSection('projects')">Veja Meus Projetos</button>
+    </section>
+
+    <section id="about">
+        <h2>Sobre Mim</h2>
+        <p>Sou estudante de programação web com foco no desenvolvimento front-end. Tenho paixão por criar interfaces intuitivas e funcionais, sempre buscando melhorar minhas habilidades e aprender novas tecnologias<br>Bom eu sempre gostei muito de video games sites e etc mas veio pela minha cabeça porque ao em vez de so ve pq eu nao crio os meus propios projetos <br> o inicio foi um tanto quanto facil comecei a programar no python e com a ajuda dos videos do curso em video hoje entou aqui.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projetos</h2>
+        <div class="project">
+            <h3>Projeto 1</h3>
+            <img width="100px" src="img/Captura de Tela (1).png">
+            <p>aqui esta um "navegador" com uma ia que responde pergunta simples como ola qual o clima.</p>
+        </div>
+        <div class="project">
+            <h3>Projeto 2</h3>
+            <p>ainda n existe</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contato</h2>
+        <form>
+            <input type="text" placeholder="Seu Nome" required>
+            <input type="email" placeholder="Seu E-mail" required>
+            <textarea placeholder="Sua Mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Guilherme</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
